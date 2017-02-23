@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <title>CodePlayer</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	
+    <link rel="stylesheet" href="../jquery/jquery-ui_1.11.4_themes_smoothness.css">	
+	<script type="text/javascript" src="../jquery/jquery-ui.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+	<div id="menu_bar">
+		<div id="title" class="ycenter">CodePlayer</div>
+		<div id="navigation_btns" class="ycenter">
+			<ul>
+				<li id="html_btn" class="selected"><span>HTML</span></li>
+				<li id="css_btn"><span>CSS</span></li>
+				<li id="js_btn"><span>JS</span></li>
+				<li id="result_btn" class="selected"><span>Result</span></li>
+			</ul>
+		</div>
+		<button id="run_btn" class="ycenter" type="button">Run</button>
+	</div>
+	
+	<div class="clear"></div>
+
+	<div id="html" class="code_container">
+		<div class="code_label">HTML</div>
+		<textarea id="html_code" placeholder="Type here"></textarea>
+	</div>
+	<div id="css" class="code_container">	
+		<div class="code_label">CSS</div>
+		<textarea id="css_code" placeholder="Type here"></textarea>
+	</div>
+	<div id="js" class="code_container">
+		<div class="code_label">Javascript</div>
+		<textarea id="js_code" placeholder="Function disabled"></textarea>
+	</div>
+	<div id="result" class="code_container">
+		<div class="code_label">Result</div>
+		<iframe id="result_frame"></iframe>
+	</div>
+	
+	<script type="text/javascript" src="codeplayer.js"></script>
+</body>
+</html>

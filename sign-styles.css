@@ -1,0 +1,37 @@
+body {
+	background-color:#F0F0F0;
+}
+
+.auth-form {
+	border-radius:6px;
+	background-color:#FFFFFF;
+	width:320px;
+	margin:20px auto;
+}
+
+.auth-form-header {
+	position:relative;
+	padding:15px 20px;
+	margin:0px;
+	color:#FFF;
+	text-shadow:0px -1px 0px rgba(0, 0, 0, 0.3);
+	background-color:#829AA8;
+	border:1px solid #768995;
+	border-radius:6px 6px 0px 0px;
+}
+
+.auth-form-body {
+	letter-spacing:0.6px;
+	padding:18px 24px;
+}
+
+@media (min-width: 768px) {
+	.auth-form {
+		width:480px;
+		margin:40px auto;
+	}
+	
+	.auth-form-body {
+		padding:18px 30px;
+	}
+}
