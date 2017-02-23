@@ -75,13 +75,13 @@
 
 	<div class="container">
 		<div class="row top-row">
-			<div class="col-md-6 col-md-offset-3 text-center">
+			<div class="col-md-6 col-sm-8 col-md-offset-3 col-sm-offset-2 text-center">
 				<h1>WeatherBoy</h1>
 				<p class="lead">Enter your city below to check its weather in 3 days!</p>
 				
 				<form>
 					<div class="input-group">
-						<span class="glyphicon glyphicon-pencil input-group-addon"></span>
+						<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
 						<input id="city" name="city" type="text" class="form-control" placeholder="E.g., Los Angeles, London, etc.">
 					</div>
 					
