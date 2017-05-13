@@ -70,10 +70,10 @@ function windowScroll() {
     $(".media").each(function() {
         self = $(this);
         var top = self.offset().top;
-        if (top >= windowTop && top + self.outerHeight() <= windowBottom) {
-            self.animate({opacity: 1}, {duration: 600, queue: false});
+        if (top >= windowTop && top + self.outerHeight() - 30 <= windowBottom) {
+            self.animate({opacity: 1}, {duration: 400, queue: false});
         } else {
-            self.animate({opacity: 0.4}, {duration: 600, queue: false});
+            self.animate({opacity: 0.4}, {duration: 400, queue: false});
         }
     })
 }
